@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Signup</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+   <link rel="stylesheet" href="styles/Register.CSS" />
+   <script src="scripts/register.js"></script>
+
+</head>
+
+<body class="blue">
+<form action="register.php" onsubmit="return(validate());" method="post">
+
+  <div id="login-page" class="row">
+    <div class="col s12 z-depth-6 card-panel">
+      <form class="login-form">
+
+        <div class="row">
+          <div class="input-field col s12 center">
+            <img src="images/logo.jpg" width="100" height="80" alt="" class="responsive-img valign profile-image-login">
+            <h6 class="center login-form-text" style=color:black>E-Learning </h6>
+            <h5 class="center login-form-text" style=color:black>SIGN UP</h5>
+          </div>
+        </div>
+        <div class="row margin">
+          <div class="input-field col s12">
+            <i class="mdi-social-person-outline prefix"></i>
+            <input id="username" type="text" class="validate" name="fstname" placeholder="First name">
+            </div>
+        </div>
+         <div class="row margin">
+          <div class="input-field col s12">
+            <i class="mdi-social-person-outline prefix"></i>
+            <input id="username" type="text" class="validate" name="lstname" placeholder="Last name">
+            </div>
+        </div>
+		<div class="row margin">
+          <div class="input-field col s12">
+            <i class="mdi-communication-phone prefix"></i>
+            <input id="phone" type="text" class="validate" name="phone" placeholder="Phone">
+           </div>
+        </div>
+        <div class="row margin">
+          <div class="input-field col s12">
+            <i class="mdi-communication-email prefix"></i>
+            <input id="email" type="email" class="validate" name="uname" placeholder="Email">
+
+          </div>
+		   <div class="row margin">
+          <div class="input-field col s12">
+            <i class="mdi-editor-border-color prefix"></i>
+            <input id="question" type="text" class="validate" name="ques" placeholder="Enter your Security Question">
+
+          </div>
+        </div>
+		 <div class="row margin">
+          <div class="input-field col s12">
+            <i class="mdi-editor-border-color prefix"></i>
+            <input id="answer" type="text" class="validate" name="ans" placeholder="Enter your Security Answer">
+
+          </div>
+        </div>
+        </div>
+        <div class="row margin">
+          <div class="input-field col s12">
+            <i class="mdi-action-lock-outline prefix"></i>
+            <input id="password" type="password" class="validate" name="pass" placeholder="Password">
+           </div>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s12">
+            <button  class="btn waves-effect waves-light col s12">Register Now</button>
+          </div>
+          <div class="input-field col s12">
+            <p class="margin center medium-small sign-up">Already have an account? <a href="Login.html">Login</a></p>
+          </div>
+        </div>
+
+		      </form>
+    </div>
+  </div>
+
+
+
+
+  </form>
+
+</body>
+
+</html>
